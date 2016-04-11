@@ -34,13 +34,7 @@
                 fclose($handle);
             }
             
-            ?>
-            
-
-            <div class="item">
-                <div class="french">testing 567</div>  
-                <div class="english">testing 123</div>    
-            </div>                   
+            ?>                 
         </div>
     </div>
   <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
