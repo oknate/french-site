@@ -1,0 +1,43 @@
+body, html {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: Lato, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+}
+
+#main-stage {
+	width: 1280px;
+	height: 720px;
+	border: 1px solid #FEFEFE;
+	text-align: center;
+}
+
+#main-stage:before {      /* create a full-height inline block pseudo-element */
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle; /* vertical alignment of the inline element */
+    height: 100%;
+}
+
+#centered-box {
+    display: inline-block;
+    vertical-align: middle;          /* vertical alignment of the inline element */
+    
+    padding: 5px;
+    border: 2px solid black;
+}
+
+#centered-box .item {
+	display: none;
+}
+
+.english {
+	font-size: 30px;
+}
+
+.french {
+	font-size: 50px;
+}
+
+#centered-box .shown-french .english {
+	font-size: 24px;
+}
